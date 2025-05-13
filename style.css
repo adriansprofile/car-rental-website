@@ -66,3 +66,49 @@ nav.sticky {
 .accent {
 	color: var(--black);
 }
+
+.brand:hover {
+	opacity: 0.8;
+}
+
+/* Navbar menu */
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 42px;
+}
+
+.menu a {
+	display: inline-block;
+	position: relative;
+	color: var(--black);
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.menu a::after {
+	color: var(--accent);
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	border-radius: 5px;
+	height: 0.1em;
+	bottom: 0;
+	left: 0;
+	background: currentColor;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.btn-2 {
+	width: 160px;
+	height: 50px;
+	font-size: 20px;
+	background-color: var(--accent);
+	border: 1px solid var(--accent);
+	border-radius: 12px;
+}
+
