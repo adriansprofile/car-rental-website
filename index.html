@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css" />
 	<script src="script.js" defer></script>
 	<script src="https://unpkg.com/scrollreveal"></script>
-
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
 	<title>CarRental</title>
 </head>
 <body>
-	<h1>CarRental</h1>
+	<!-- Navbar -->
+	<nav>
+		<a href="index.html" class="brand">
+			<h1>Car<b class="accent">Rental</b></h1>	
+		</a>
+
+		<div class="menu">
+			<div class="btn">
+				<i class="fas fa-times close-btn"></i>
+			</div>
+			<a href="index.html">HOME</a>
+			<a href="collection.html">CARS</a>
+			<a href="index.html#about">ABOUT</a>
+			<a href="index.html#testimonials">REVIEWS</a>
+		</div>
+
+		<button class="btn-2" onclick="window.location.href='contact.html'">
+			Get Started
+		</button>
+
+		<div class="btn">
+			<i class="fas fa-bars menu-btn"></i>
+		</div>
+	</nav>
+	<!-- Navbar End -->
 </body>
 </html>
