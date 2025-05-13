@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+root {
+	--accent: #5d50fa;
+	--black: #131313;
+	--gray: #f9f9f9;
+	--blue-gray: #f7f7fb;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+}
+
+section {
+	min-width: 100%;
+	min-height: 100vh;
+	color: var(--black);
+}
+
+/* Navbar */
+nav {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: var(--black);
+	background-color: white;
+	padding: 30px 50px;
+	transition: all 0.1s ease-out;
+	filter: drop-shadow(5px 5px 10px transparent);
+}
+
+/* Navbar Sticky */
+nav.sticky {
+	background-color: white;
+	filter: drop-shadow(5px 5px 10px rgba(194, 184, 255, 0.5));
+}
+
+/* Navbar Brand */
+.brand {
+	text-decoration: none;
+	transition: all ease-in-out 0.3s;
+	color: var(--black);
+}
+
+.brand h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.accent {
+	color: var(--black);
+}
