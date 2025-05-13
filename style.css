@@ -7,7 +7,7 @@
 	font-family: "Poppins", sans-serif;
 }
 
-root {
+:root {
 	--accent: #5d50fa;
 	--black: #131313;
 	--gray: #f9f9f9;
@@ -64,7 +64,7 @@ nav.sticky {
 }
 
 .accent {
-	color: var(--black);
+	color: var(--accent);
 }
 
 .brand:hover {
