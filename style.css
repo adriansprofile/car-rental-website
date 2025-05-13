@@ -103,6 +103,18 @@ nav.sticky {
 	transition: transform 0.25s ease-out;
 }
 
+.menu a:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.btn {
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	display: none;
+}
+
 .btn-2 {
 	width: 160px;
 	height: 50px;
@@ -110,5 +122,13 @@ nav.sticky {
 	background-color: var(--accent);
 	border: 1px solid var(--accent);
 	border-radius: 12px;
+	color: white;
+	transition: all ease-in-out 0.2s;
+	cursor: pointer;
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
 }
 
+.btn-2:hover {
+	background-color: var(--black);
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
