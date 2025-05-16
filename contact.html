@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js" defer></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"
+	/>
+	<title>CarRental</title>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav>
+		<a href="index.html" class="brand">
+			<h1>Car<b class="accent">Rental</b></h1>	
+		</a>
+
+		<div class="menu">
+			<div class="btn">
+				<i class="fas fa-times close-btn"></i>
+			</div>
+			<a href="index.html">HOME</a>
+			<a href="collection.html">CARS</a>
+			<a href="index.html#about">ABOUT</a>
+			<a href="index.html#testimonials">REVIEWS</a>
+		</div>
+
+		<button class="btn-2" onclick="window.location.href='contact.html'">
+			Get Started
+		</button>
+
+		<div class="btn">
+			<i class="fas fa-bars menu-btn"></i>
+		</div>
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Contact Section -->
+	<section class="contact">
+		<h1>Get in Touch for Your Dream Ride!</h1>
+		<p>
+			Have questions or need assistance? Our team is here to help you find the perfect car for you adventure.
+		</p>
+		<form action="https://api.web3forms.com/submit" method="POST">
+			<input type="hidden" name="access_key" value="123456789">
+
+			<div class="car-select">
+				<div class="car-select-item">
+					<label for="location">Location</label>
+					<select name="location" class="car-select-input" id="location">
+						<option value="Timisoara">Timisoara</option>
+						<option value="Cluj-Napoca">Cluj-Napoca</option>
+						<option value="Bucuresti">Bucuresti</option>
+						<option value="Arad">Arad</option>
+						<option value="Oradea">Oradea</option>
+					</select>
+				</div>
+				<div class="car-select-item">
+					<label for="car-type">Car to Rent:</label>
+					<select name="car-type" class="car-select-input" id="car-type">
+						<option value="Mercedes-AMG GT R">Mercedes-AMG GT R</option>
+						<option value="Lamborghini Venemo">Lamborghini Venemo</option>
+						<option value="Rolls Royce Dawn">Rolls Royce Dawn</option>
+						<option value="Toyota 86 - Coupe">Toyota 86 - Coupe</option>
+					</select>
+				</div>
+				<div class="car-select-item">
+					<label for="date">Date:</label>
+					<input type="date" name="date" class="car-select-input">
+				</div>
+			</div>
+			<div class="contact-form">
+				<input type="text" name="name" placeholder="Name" required>
+				<input type="email" name="email" placeholder="Email" required>
+				<input type="phone" name="phone" placeholder="Phone" required>
+				<button type="submit" class="btn-2">Submit</button>
+			</div>
+		</form>
+	</section>
+	<!-- Contact Section End -->
+
+	<!-- Footer Section -->
+	<footer class="contact-footer">
+	  <div class="callout">
+	    <h2>Let's drive with CarRental Today</h2>
+	    <p class="callout-description">
+	      Need assistance or ready to reserve your wheels? Contact us now for 
+	      prompt service and effortless booking!
+	    </p>
+	    <div class="callout-buttons">
+	      <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+	        <p>Check Our Cars</p>
+	        <i class="fa-solid fa-arrow-right-long"></i>
+	      </button>
+
+	      <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='contact.html'">
+	        <p>Book Now</p>
+	        <i class="fa-solid fa-phone"></i>
+	      </button>
+	    </div>
+	  </div>
+
+	  <div class="footer-bottom">
+	    <a href="/" class="footer-brand">Car<b class="accent">Rental</b></a>
+	    <div class="socials">
+	      <a href="/" class="social-item">
+	        <i class="fa-brands fa-facebook-f"></i>
+	      </a>
+	      <a href="/" class="social-item">
+	        <i class="fa-brands fa-instagram"></i>
+	      </a>
+	      <a href="/" class="social-item">
+	        <i class="fa-brands fa-x-twitter"></i>
+	      </a>
+	      <a href="/" class="social-item">
+	        <i class="fa-brands fa-telegram"></i>
+	      </a>
+	    </div>
+	  </div>
+	</footer>
+	<!-- Footer Section End -->
+</body>
+</html>

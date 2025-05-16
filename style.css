@@ -605,3 +605,86 @@ nav.sticky {
 	position: relative;
 	margin-top: 250px;
 }
+
+/* Contact Page */
+.contact {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("img/contact-img.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.contact p {
+	font-size: 24px;
+	width: 708px;
+	text-align: center;
+}
+
+.car-select {
+	background-color: #efefef;
+	width: 90vw;
+	height: 153px;
+	border-radius: 32px;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 72px;
+}
+
+.car-select-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.car-select-item label {
+	font-size: 24px;
+}
+
+.car-select-input {
+	width: 276px;
+	height: 45px;
+	border-radius: 32px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+.contact-form input {
+	height: 60px;
+	border: none;
+	border-bottom: 1px solid var(--black);
+	font-size: 32px;
+	color: var(--black);
+	font-weight: 600;
+	background-color: transparent;
+	outline: none;
+}
+
+.contact-form button {
+	width: 260px;
+	height: 50px;
+	border-radius: 0px;
+}
+
+.contact-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin-top: 250px;
+}
