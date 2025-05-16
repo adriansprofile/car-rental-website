@@ -45,13 +45,11 @@ nav {
 	filter: drop-shadow(5px 5px 10px transparent);
 }
 
-/* Navbar Sticky */
 nav.sticky {
 	background-color: white;
 	filter: drop-shadow(5px 5px 10px rgba(194, 184, 255, 0.5));
 }
 
-/* Navbar Brand */
 .brand {
 	text-decoration: none;
 	transition: all ease-in-out 0.3s;
@@ -71,7 +69,6 @@ nav.sticky {
 	opacity: 0.8;
 }
 
-/* Navbar menu */
 .menu {
 	display: flex;
 	justify-content: center;
@@ -131,4 +128,55 @@ nav.sticky {
 .btn-2:hover {
 	background-color: var(--black);
 	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* Hero Page Section */
+.hero-page {
+  margin-top: 200px;
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.hero-headlines {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 652px;
+}
+
+.hero-headlines h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-headlines p {
+  font-size: 20px;
+}
+
+.btn-hero {
+  width: 276px;
+  height: 62px;
+  font-size: 24px;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.download-buttons img {
+  transition: all 0.3s ease-in-out;
+}
+
+.download-buttons img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.hero-page-img {
+  max-width: 100%;
+  height: auto;
 }
