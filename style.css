@@ -65,6 +65,10 @@ nav.sticky {
 	color: var(--accent);
 }
 
+.black {
+	color: var(--black);
+}
+
 .brand:hover {
 	opacity: 0.8;
 }
@@ -389,4 +393,54 @@ nav.sticky {
 
 .car-info-container {
   padding: 20px 30px 30px 30px;
+}
+
+/* Review Section */
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.review-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-item {
+  width: 430px;
+  height: 325px;
+  border-radius: 32px;
+  background-color: var(--blue-gray);
+  padding: 40px 30px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.15));
+  transition: all 0.3s ease-out;
+}
+
+.review-item:hover {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+.review-item p {
+  font-size: 24px;
+}
+
+.review-people {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.review-people h5 {
+  font-size: 24px;
 }
