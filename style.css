@@ -180,3 +180,85 @@ nav.sticky {
   max-width: 100%;
   height: auto;
 }
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 110px;
+}
+
+.about-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("img/about_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+}
+
+.about-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  width: 494px;
+  text-align: center;
+  margin-top: 67px;
+}
+
+.about-subline {
+  font-size: 24px;
+  width: 822px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.about-info {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.about-info-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: var(--black);
+  padding: 0px 35px 47px 17px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+  width: 380px;
+  height: 414px;
+  transition: all ease-out 0.3s;
+}
+
+.about-info-item:hover {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.4));
+}
+
+.about-hr {
+  width: 100%;
+  position: absolute;
+  border: 16px solid var(--accent);
+  color: var(--accent);
+  left: 0px;
+}
+
+.about-info-item img {
+  width: 170px;
+  height: 178px;
+  margin-top: 45px;
+}
+
+.about-info-item h5 {
+  font-size: 32px;
+}
+
+.about-info-item p {
+  font-size: 16px;
+  margin-top: 8px;
+}
