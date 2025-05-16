@@ -562,3 +562,46 @@ nav.sticky {
 .social-item:hover {
 	background-color: var(--accent);
 }
+
+/* Collection Page Section */
+#collection-page {
+	margin-top: 90px;
+	margin-bottom: 150px;
+}
+
+#collection-car-item-page {
+	height: 520px;
+}
+
+.collection-category {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0px 50px; margin-top: 100px;
+}
+
+.collection-category h1 {
+	font-size: 48px;
+}
+
+.collection-category h2 {
+	font-weight: 500;
+}
+
+#collection-page-img {
+	margin: 18px;
+}
+
+.btn-collection-page {
+	width: 100%;
+	border-radius: 12px;
+	font-size: 20px;
+}
+
+.collection-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin-top: 250px;
+}
