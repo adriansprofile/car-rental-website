@@ -688,3 +688,152 @@ nav.sticky {
 	position: relative;
 	margin-top: 250px;
 }
+
+/* Laptop and Tablet */
+@media (max-width: 1024px) and(min-width: 0px) {
+	nav {
+		padding: 30px 20px;
+	}
+
+	.brand h1 {
+		font-size: 24px;
+	}
+
+	.menu {
+		gap: 28px;
+	}
+
+	.menu a {
+		font-size: 20px;
+	}
+
+	nav .btn-2 {
+		width: 118px;
+		height: 35px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.hero-page {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.hero-headlines {
+		align-items: center;
+		gap: 11px;
+		margin-bottom: 30px;
+	}
+
+	/* About */
+	.about {
+		margin-bottom: 700px;
+	}
+
+	.about-subline {
+		width: 567px;
+	}
+
+	.about-info {
+		gap: 12px;
+		justify-content: center;
+		top: 350;
+	}
+
+	.about-info-item {
+		width: 358px;
+		height: 450px;
+	}
+
+	/* Collection */
+	.collection-container {
+		gap: 12px;
+	}
+
+	.collection-car-item {
+		width: 358;
+		height: 450;
+	}
+
+	.collection-car-item h2 {
+		font-size: 24px;
+	}
+
+	/* Review */
+	.review {
+		margin-top: 100px;
+	}
+
+	.review h1 {
+		font-size: 48px;
+	}
+
+	.review-container {
+		gap: 12px;
+	}
+
+	.review-item {
+		width: 358px;
+		height: 339px;
+	}
+
+	.review-item p {
+		font-size: 20px;
+	}
+
+	.review-people {
+		margin-top: 30px;
+	}
+
+	/* Footer */
+	.index-footer {
+		margin-top: 300px;
+	}
+
+	.callout {
+		padding: 50px;
+		background-color: var(--accent);
+		background-image: none;
+	}
+
+	.callout h2 {
+		font-size: 40px;
+		width: 380px;
+		text-align: center;
+	}
+
+	.callout-description {
+		width: 100%;
+		font-size: 20px;
+	}
+
+	/* Collection Page */
+	.collection-category {
+		padding: 0px 20px;
+	}
+
+	#collection-car-item-page {
+		height: 488px;
+	}
+
+	/* Contact Page */
+	.contact h1 {
+		font-size: 40px;
+	}
+
+	.contact p {
+		width: 567px;
+		text-align: center;
+	}
+
+	.car-select {
+		width: 190px;
+		height: 45px;
+	}
+
+	.car-select-input {
+		width: 190px;
+		height: 45px;
+	}
+}
